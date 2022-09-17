@@ -1,0 +1,6 @@
+buildName=master-Analytics_AnalyticsAgent-22.8.0-190
+buildHash=c13bcc021040e4346043372ea8bf30eca0a40e6e
+buildTimestamp=2022-08-24T18:00:23+0000
+buildNumber=22.8.0-190
+jobName=Analytics_AnalyticsAgent
+version=22.8.0-190
