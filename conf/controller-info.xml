@@ -12,7 +12,7 @@
     be overridden with the environment variable 'CONTROLLER_HOST_NAME' or the system property
     '-Dappdynamics.controller.hostName'  -->
 
-    <controller-host>analytics.api.appdynamics.com</controller-host>
+    <controller-host>datasysgroup-nfr.saas.appdynamics.com</controller-host>
 
     <!--  This is the http(s) port of the AppDynamics Controller. If 'controller-ssl-enabled' (below) is set to true, you
     must specify the HTTPS port of the Controller; otherwise, specify the HTTP port. The default values are 8090 for
@@ -60,13 +60,13 @@
     single-tenant mode (the default) there is no need to configure this value. This can be overridden with the
     environment variable 'APPDYNAMICS_AGENT_ACCOUNT_NAME' or the system property '-Dappdynamics.agent.accountName'  -->
 
-    <account-name>datasysgroup-nfr_b08dd9e1-8036-4e44-aa7b-0192e696198c</account-name>
+    <account-name>datasysgroup-nfr</account-name>
 
     <!--  If this agent is licensed for Server Monitoring, set this flag to 'true' to enable Server Monitoring expanded
     metrics. This can be overridden with the environment variable 'APPDYNAMICS_SIM_ENABLED' or the system property
     '-Dappdynamics.sim.enabled'  -->
 
-    <sim-enabled>false</sim-enabled>
+    <sim-enabled>true</sim-enabled>
 
     <!--  If this machine is sap machine , set this flag to 'true' to enable is sap flag for ibl licensing
         This can be overridden with the environment variable 'APPDYNAMICS_IS_SAP_MACHINE' or the system property
